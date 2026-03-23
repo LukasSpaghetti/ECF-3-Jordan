@@ -3,22 +3,23 @@
         "id" : 1,
         "image" : "Jordan MVP 92.png",
         "title" : "Jordan MVP 92",
-        "price" : 145
+        "price" : 145,
+        "border" : true
     
     },
     {
         "id" : 2,
         "image" : "Jordan son of mars low.png",
         "title" : "Jordan Son of Mars Low",
-        "price" : 165,
-        "border" : true
+        "price" : 165
     
     },
     {
         "id" : 3,
         "image" : "Air Jordan 1 mid.png",
         "title" : "Air Jordan 1 mid",
-        "price" : 130
+        "price" : 130,
+        "border" : true
     },
     {
         "id" : 4,
@@ -35,7 +36,7 @@
     },
     {
         "id" : 6,
-        "image" : "Air Jordan OG.png",
+        "image" : "Air Jordan OG mid.png",
         "title" : "Air Jordan OG mid",
         "price" : 155
     }
