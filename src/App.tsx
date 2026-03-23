@@ -10,7 +10,7 @@ function App() {
     <main>
       <Routes>
         <Route
-          path="/home"
+          path="/"
           element={<HomePage/>}
         />
         <Route

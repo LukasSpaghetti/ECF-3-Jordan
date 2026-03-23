@@ -12,10 +12,10 @@ export const Navbar = ({focusedPage} : Props) => {
     return(
         <nav className="flex items-center justify-between border-solid border-b-1 sm:relative">
             <div>
-                <Link to="/home"><img className="px-8 py-4 border-solid border-r-1" src="Jordan.png" alt="" /></Link>
+                <Link to="/"><img className="px-8 py-4 border-solid border-r-1" src="Jordan.png" alt="" /></Link>
             </div>
             <ul className="gap-4 py-4 hidden sm:flex">
-                <li className={`px-6 py-2 ${focusedPage == 1 ? "bg-black text-white rounded-full " : ""}`}><Link to="/home">Home</Link></li>
+                <li className={`px-6 py-2 ${focusedPage == 1 ? "bg-black text-white rounded-full " : ""}`}><Link to="/">Home</Link></li>
                 <li className={`px-6 py-2 ${focusedPage == 2 ? "bg-black text-white rounded-full " : ""}`}><Link to="/shop">Shop</Link></li>
                 <li className={`px-6 py-2 ${focusedPage == 3 ? "bg-black text-white rounded-full " : ""}`}><Link to="/contact">Contact</Link></li>
             </ul>
