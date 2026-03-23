@@ -21,7 +21,7 @@ export const Navbar = ({focusedPage} : Props) => {
             </ul>
             <div className="flex gap-6 px-6 py-6  h-full border-none sm:border-l-1 border-solid">
                 <User className="cursor-pointer"/>
-                <ShoppingCart className="cursor-pointer mr-12 lg:mr-0"/>
+                <ShoppingCart className="cursor-pointer mr-12 md:mr-0"/>
                 <button
                     onClick={() => setOpenBurgerMenu(!openBurgerMenu)}
                     className="sm:hidden text-black-50 z-51 fixed right-5"
